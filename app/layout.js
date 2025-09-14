@@ -25,7 +25,7 @@ export const metadata = {
   title: "GetMeAChai - Support Creators by Buying a Chai ☕",
   description: "GetMeAChai is a platform where fans can support their favorite creators with a chai. Built with Next.js and Razorpay.",
   keywords: ["GetMeAChai", "BuyMeACoffee", "Support Creators", "Donate", "Next.js"],
-  authors: [{ name: "Kiran Gawande", url: "https://getmeachai.vercel.app" }],
+  authors: [{ name: "Kiran Gawande", url: "https://getmeachai-umber.vercel.app/" }],
   creator: "Kirna Gawande",
   publisher: "GetMeAChai",
 
@@ -33,11 +33,11 @@ export const metadata = {
   openGraph: {
     title: "GetMeAChai - Support Creators by Buying a Chai ☕",
     description: "Support your favorite creators with a chai. Built on Next.js + Razorpay.",
-    url: "https://getmeachai.vercel.app",
+    url: "https://getmeachai-umber.vercel.app/",
     siteName: "GetMeAChai",
     images: [
       {
-        url: "https://getmeachai.vercel.app/og-image.png", 
+        url: "https://getmeachai-umber.vercel.app//og-image.png", 
         width: 1200,
         height: 630,
         alt: "GetMeAChai Preview",
@@ -52,7 +52,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "GetMeAChai - Support Creators",
     description: "A chai-powered way to support your favorite creators ☕",
-    images: ["https://getmeachai.vercel.app/og-image.png"],
+    images: ["https://getmeachai-umber.vercel.app//og-image.png"],
     creator: "@KiranGa28867429",
   },
 
@@ -62,7 +62,7 @@ export const metadata = {
     follow: true,
   },
 
-  metadataBase: new URL("https://getmeachai.vercel.app"),
+  metadataBase: new URL("https://getmeachai-umber.vercel.app/"),
 };
 
 
