@@ -1,4 +1,4 @@
-// /app/api/create-order/route.js
+
 import Razorpay from "razorpay"
 
 export async function POST(req) {
