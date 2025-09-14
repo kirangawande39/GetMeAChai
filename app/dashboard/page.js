@@ -50,3 +50,11 @@ const Dashboard = () => {
 }
 
 export default Dashboard
+
+
+
+export const metadata = {
+  title: "Dashboard - GetMeAChai",
+  description: "Access your Dashboard on GetMeAChai to manage your profile, track support, and see insights.",
+};
+

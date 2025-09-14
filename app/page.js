@@ -13,7 +13,7 @@ export default function Home() {
             <h1 className="font-bold text-4xl md:text-6xl py-5">
               Get Me A Chai
             </h1>
-            <img
+            <Image
               className="h-12 w-12 md:h-16 md:w-16"
               src="https://media.tenor.com/yns7a5_vQpkAAAAj/coffee-emoji.gif"
               alt="chai gif"
@@ -41,7 +41,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-10 md:gap-16 py-10 md:py-16 text-center">
             <div className="flex flex-col items-center max-w-xs">
-              <img
+              <Image
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/man.gif"
                 alt="Support Yourself"
@@ -52,7 +52,7 @@ export default function Home() {
               </span>
             </div>
             <div className="flex flex-col items-center max-w-xs">
-              <img
+              <Image
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/dollar.gif"
                 alt="Get Funded"
@@ -63,7 +63,7 @@ export default function Home() {
               </span>
             </div>
             <div className="flex flex-col items-center max-w-xs">
-              <img
+              <Image
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/group.gif"
                 alt="Community"
