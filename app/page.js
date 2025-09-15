@@ -17,6 +17,8 @@ export default function Home() {
               className="h-12 w-12 md:h-16 md:w-16"
               src="https://media.tenor.com/yns7a5_vQpkAAAAj/coffee-emoji.gif"
               alt="chai gif"
+              width={10}
+              height={12}
             />
           </div>
           <h5 className="text-lg md:text-2xl py-5">
@@ -45,6 +47,8 @@ export default function Home() {
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/man.gif"
                 alt="Support Yourself"
+                width={30}
+                height={30}
               />
               <h5 className="mt-3 font-semibold text-lg">Create & Share</h5>
               <span className="text-gray-600 text-sm">
@@ -56,6 +60,8 @@ export default function Home() {
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/dollar.gif"
                 alt="Get Funded"
+                width={30}
+                height={30}
               />
               <h5 className="mt-3 font-semibold text-lg">Earn Support</h5>
               <span className="text-gray-600 text-sm">
@@ -67,6 +73,8 @@ export default function Home() {
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/group.gif"
                 alt="Community"
+                     width={30}
+                height={30}
               />
               <h5 className="mt-3 font-semibold text-lg">Build Community</h5>
               <span className="text-gray-600 text-sm">

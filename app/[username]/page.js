@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useState } from "react"
 import Image from "next/image"
 import PaymentPage from "@/components/PaymentPage"
@@ -17,6 +16,7 @@ const Username = ({ params }) => {
           alt="Cover"
           width={1200}
           height={480}
+          unoptimized
         />
         <div className='flex justify-center -mt-10'>
           <Image
