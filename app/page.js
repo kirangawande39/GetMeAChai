@@ -73,7 +73,7 @@ export default function Home() {
                 className="h-16 w-16 rounded-full"
                 src="https://get-me-chai.vercel.app/group.gif"
                 alt="Community"
-                     width={30}
+                width={30}
                 height={30}
               />
               <h5 className="mt-3 font-semibold text-lg">Build Community</h5>
