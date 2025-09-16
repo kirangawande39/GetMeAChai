@@ -1,8 +1,13 @@
 "use client"
 import React from "react"
 import { toast } from "react-toastify"
-
+import { useSession } from "next-auth/react"
 const PaymentPage = ({ username, amount }) => {
+const {data:session}=useSession()
+
+const userId=session?.user?.id;
+
+console.log("userId",userId)
 
   const loadRazorpayScript = () => {
     return new Promise((resolve) => {
@@ -25,7 +30,7 @@ const PaymentPage = ({ username, amount }) => {
       const res = await fetch("/api/create-order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ amount })
+        body: JSON.stringify({ amount, userId })
       })
       const data = await res.json()
       if (!data.id) {
@@ -43,10 +48,10 @@ const PaymentPage = ({ username, amount }) => {
           const verifyRes = await fetch("/api/verify-payment", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(response)
+            body: JSON.stringify({response,userId})
           })
           const verifyData = await verifyRes.json()
-          if (verifyData.status === "success") toast.success("Payment verified!")
+          if (verifyData.status === "success") toast.success("Payment Recived")
           else toast.error("Payment verification failed!")
         },
         theme: { color: "#3399cc" }

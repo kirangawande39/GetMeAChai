@@ -41,7 +41,7 @@ export default function Home() {
           <h2 className="font-bold text-center text-xl md:text-2xl mt-10">
             Your fans can buy you a chai
           </h2>
-          <div className="flex flex-col md:flex-row justify-center gap-10 md:gap-16 py-10 md:py-16 text-center">
+          <div className="flex flex-col justify-center items-center  md:flex-row justify-center gap-10 md:gap-16 py-10 md:py-16 text-center">
             <div className="flex flex-col items-center max-w-xs">
               <Image
                 className="h-16 w-16 rounded-full"

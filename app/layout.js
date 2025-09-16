@@ -26,7 +26,7 @@ export const metadata = {
   description: "GetMeAChai is a platform where fans can support their favorite creators with a chai. Built with Next.js and Razorpay.",
   keywords: ["GetMeAChai", "BuyMeACoffee", "Support Creators", "Donate", "Next.js"],
   authors: [{ name: "Kiran Gawande", url: "https://getmeachai-umber.vercel.app/" }],
-  creator: "Kirna Gawande",
+  creator: "Kiran Gawande",
   publisher: "GetMeAChai",
 
 
