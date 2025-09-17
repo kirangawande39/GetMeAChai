@@ -7,7 +7,7 @@ const {data:session}=useSession()
 
 const userId=session?.user?.id;
 
-console.log("userId",userId)
+// console.log("userId",userId)
 
   const loadRazorpayScript = () => {
     return new Promise((resolve) => {
@@ -68,7 +68,7 @@ console.log("userId",userId)
   return (
     <button
       onClick={() => handlePayment(amount)}
-      className="bg-blue-600 text-white p-2 rounded-lg"
+      className="bg-blue-600 text-white p-2 cursor-pointer rounded-lg"
     >
       Pay ₹{amount}
     </button>
